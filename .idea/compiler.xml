@@ -10,7 +10,6 @@
         <module name="system" />
         <module name="common" />
         <module name="tools" />
-        <module name="springboot-fourth-demo" />
       </profile>
     </annotationProcessing>
   </component>
