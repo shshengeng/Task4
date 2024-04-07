@@ -5,38 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="736840f4-9dee-46a5-8020-d09bbd0136c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/aspect/RateLimit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/aspect/RateLimitAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/config/OpenApiConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/exception/AccessDeniedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/exception/BadRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/exception/GenericExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/exception/InternalServerErrorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/response/ResponseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/utils/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/utils/PaginationUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/utils/RedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/utils/SecurityUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/utils/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/config/OpenApiConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/src/main/java/com/example/logging/LoggingModuleApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/src/main/java/com/example/logging/annotation/Loggable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/src/main/java/com/example/logging/aspect/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/src/main/java/com/example/logging/mapper/LogEntryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/src/main/java/com/example/logging/model/LogEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/src/main/java/com/example/logging/service/LogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/resources/log4jdbc.log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logging/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/mvnw.cmd" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/system/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/src/main/java/com/example/system/SystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/SystemApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tools/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -63,20 +47,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;9c808b5a456f094409dc09ca2d37c40c&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "9c808b5a456f094409dc09ca2d37c40c"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/logging/src/main" />
+    </key>
+  </component>
   <component name="RunManager" selected="Spring Boot.SystemApplication">
     <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="common" />
@@ -105,7 +97,7 @@
       <workItem from="1710827228640" duration="6921000" />
       <workItem from="1711390237586" duration="9000" />
       <workItem from="1711391362646" duration="4000" />
-      <workItem from="1711510353556" duration="12497000" />
+      <workItem from="1711510353556" duration="23465000" />
     </task>
     <servers />
   </component>
