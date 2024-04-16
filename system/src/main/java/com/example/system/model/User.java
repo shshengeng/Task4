@@ -1,6 +1,7 @@
 package com.example.system.model;
 
 import java.sql.Timestamp;
+import java.util.Collection;
 
 public class User {
 

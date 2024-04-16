@@ -1,0 +1,31 @@
+2024-04-14 00:48:07.540 [main] INFO  com.example.system.SystemApplication - Starting SystemApplication using Java 17.0.2 with PID 8061 (/Users/zhangbaisheng/IdeaProjects/springboot-fourth-demo/system/target/classes started by zhangbaisheng in /Users/zhangbaisheng/IdeaProjects/springboot-fourth-demo)
+2024-04-14 00:48:07.542 [main] INFO  com.example.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-14 00:48:08.016 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-14 00:48:08.018 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-14 00:48:08.041 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-04-14 00:48:08.523 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-04-14 00:48:08.530 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-14 00:48:08.531 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-14 00:48:08.531 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-14 00:48:08.565 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-14 00:48:08.565 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 999 ms
+2024-04-14 00:48:08.610 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loggingAspect' defined in file [/Users/zhangbaisheng/IdeaProjects/springboot-fourth-demo/logging/target/classes/com/example/logging/aspect/LoggingAspect.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.example.logging.mapper.LogEntryMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-04-14 00:48:08.612 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2024-04-14 00:48:08.626 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-14 00:48:08.637 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.logging.aspect.LoggingAspect required a bean of type 'com.example.logging.mapper.LogEntryMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.logging.mapper.LogEntryMapper' in your configuration.
+
