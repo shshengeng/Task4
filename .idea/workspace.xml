@@ -5,13 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="736840f4-9dee-46a5-8020-d09bbd0136c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/controller/MenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/mapper/MenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/Impl/MenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/controller/DictController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/controller/DictDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/mapper/DictDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/mapper/DictMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/DictDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/DictService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/Impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/Impl/DictDetailImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/Impl/DictServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/example/system/SystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/SystemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/example/system/security/SpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/security/SpringSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/system/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/MenuService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -33,6 +42,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2dtHowdDduE9zhSKGKAEjI8OvxM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,13 +59,26 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "32b6b338bfabc0c2d8a286737f848349"
+    "spring.configuration.checksum": "32b6b338bfabc0c2d8a286737f848349",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -80,6 +105,14 @@
       </method>
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -93,7 +126,9 @@
       <workItem from="1711390237586" duration="9000" />
       <workItem from="1711391362646" duration="4000" />
       <workItem from="1711510353556" duration="41640000" />
-      <workItem from="1713305630982" duration="24965000" />
+      <workItem from="1713305630982" duration="28989000" />
+      <workItem from="1714019587763" duration="78000" />
+      <workItem from="1714019675889" duration="8300000" />
     </task>
     <servers />
   </component>

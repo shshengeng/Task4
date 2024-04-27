@@ -1,8 +1,6 @@
 package com.example.system.service;
 
 import com.example.system.model.Menu;
-import org.apache.ibatis.annotations.Select;
-
 import java.util.List;
 
 public interface MenuService{
