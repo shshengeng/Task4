@@ -1,22 +1,24 @@
 package com.example.system.service;
 
-import com.example.system.model.User;
+import com.example.system.model.Role;
 
 import java.util.List;
 
-public interface UserService {
+public interface RoleService {
 
-    User selectById(Long id);
 
-    List<User> selectAll();
+    Role selectById(Long id);
 
-    int insert(User user);
+    List<Role> selectAll();
 
-    int update(User user);
+    int insert(Role role);
+
+    int update(Role role);
 
     int deleteById(Long id);
 
     byte[] exportDataToExcel() throws Exception;
 
     List selectPage(Integer pageNum, Integer pageSize);
+
 }

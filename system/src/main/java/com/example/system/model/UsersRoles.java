@@ -3,14 +3,14 @@ package com.example.system.model;
 public class UsersRoles {
 
     private Long userId;
-    private Long jobId;
+    private Long roleId;
 
     public UsersRoles() {
     }
 
     public UsersRoles(Long userId, Long jobId) {
         this.userId = userId;
-        this.jobId = jobId;
+        this.roleId = jobId;
     }
 
     public Long getUserId() {
@@ -21,19 +21,19 @@ public class UsersRoles {
         this.userId = userId;
     }
 
-    public Long getJobId() {
-        return jobId;
+    public Long getRoleId() {
+        return roleId;
     }
 
-    public void setJobId(Long jobId) {
-        this.jobId = jobId;
+    public void setRoleId(Long roleId) {
+        this.roleId = roleId;
     }
 
     @Override
     public String toString() {
         return "UsersRoles{" +
                 "userId=" + userId +
-                ", jobId=" + jobId +
+                ", roleId=" + roleId +
                 '}';
     }
 }

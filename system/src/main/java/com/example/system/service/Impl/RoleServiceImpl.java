@@ -1,8 +1,8 @@
 package com.example.system.service.Impl;
 
-import com.example.system.mapper.UserMapper;
-import com.example.system.model.User;
-import com.example.system.service.UserService;
+import com.example.system.mapper.RoleMapper;
+import com.example.system.model.Role;
+import com.example.system.service.RoleService;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -15,61 +15,61 @@ import java.lang.reflect.Field;
 import java.util.List;
 
 @Service
-public class UserServiceImpl implements UserService {
+public class RoleServiceImpl implements RoleService {
 
     @Autowired
-    UserMapper userMapper;
+    private RoleMapper roleMapper;
 
 
     @Override
-    public User selectById(Long id) {
-        return userMapper.selectById(id);
+    public Role selectById(Long id) {
+        return roleMapper.selectById(id);
     }
 
     @Override
-    public List<User> selectAll() {
-        return userMapper.selectAll();
+    public List<Role> selectAll() {
+        return roleMapper.selectAll();
     }
 
     @Override
-    public int insert(User user) {
-        return userMapper.insert(user);
+    public int insert(Role role) {
+        return roleMapper.insert(role);
     }
 
     @Override
-    public int update(User user) {
-        return userMapper.update(user);
+    public int update(Role role) {
+        return roleMapper.update(role);
     }
 
     @Override
     public int deleteById(Long id) {
-        return userMapper.deleteById(id);
+        return roleMapper.deleteById(id);
     }
 
     @Override
     public byte[] exportDataToExcel() throws Exception {
-        List<User> list = userMapper.selectAll();
+        List<Role> list = roleMapper.selectAll();
 
         // 创建 Excel 工作簿和工作表
         Workbook workbook = new XSSFWorkbook();
-        Sheet sheet = workbook.createSheet("User表");
+        Sheet sheet = workbook.createSheet("Role表");
 
         // 填充 Excel 数据
         int rowNum = 0;
         Row row = sheet.createRow(rowNum++);
-        Field[] declaredFields = User.class.getDeclaredFields();
+        Field[] declaredFields = Role.class.getDeclaredFields();
         row.createCell(0).setCellValue("序号");
         for (int i = 0; i < declaredFields.length; i++){
             row.createCell(i+1).setCellValue(declaredFields[i].getName());
         }
 
-        for (User user : list){
+        for (Role role : list){
             row = sheet.createRow(rowNum++);
             row.createCell(0).setCellValue(rowNum-1);
-            Field[] fields = user.getClass().getDeclaredFields();
+            Field[] fields = role.getClass().getDeclaredFields();
             for (int i = 0; i < fields.length; i++){
                 fields[i].setAccessible(true);
-                Object o = fields[i].get(user);
+                Object o = fields[i].get(role);
                 if(o != null){
                     row.createCell(i+1).setCellValue(String.valueOf(o));
                 }
@@ -85,6 +85,9 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public List selectPage(Integer pageNum, Integer pageSize) {
-        return userMapper.selectPage(pageNum,pageSize);
+        return roleMapper.selectPage(pageNum,pageSize);
     }
+
+
+
 }

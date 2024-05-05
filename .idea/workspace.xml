@@ -5,22 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="736840f4-9dee-46a5-8020-d09bbd0136c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/controller/DictController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/controller/DictDetailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/mapper/DeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/mapper/DictDetailMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/mapper/DictMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/DictDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/DictService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/Impl/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/Impl/DictDetailImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/Impl/DictServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/mapper/UserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/Impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/Impl/UserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/UserRoleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/system/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/example/system/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/example/system/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/example/system/model/UsersRoles.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/model/UsersRoles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +125,7 @@
       <workItem from="1711510353556" duration="41640000" />
       <workItem from="1713305630982" duration="28989000" />
       <workItem from="1714019587763" duration="78000" />
-      <workItem from="1714019675889" duration="8300000" />
+      <workItem from="1714019675889" duration="18767000" />
     </task>
     <servers />
   </component>
