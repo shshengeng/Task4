@@ -100,6 +100,11 @@
             <artifactId>tools</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.github.oshi</groupId>
+            <artifactId>oshi-core</artifactId>
+            <version>6.1.6</version>
+        </dependency>
     </dependencies>
 
 
