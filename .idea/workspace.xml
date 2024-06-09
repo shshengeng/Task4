@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="736840f4-9dee-46a5-8020-d09bbd0136c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/logging/src/main/java/com/example/logging/controller/LogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logging/src/main/java/com/example/logging/mapper/LogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logging/src/main/java/com/example/logging/service/LogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logging/src/main/java/com/example/logging/service/impl/LogServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logging/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/example/system/model/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/example/system/model/Log.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +119,7 @@
       <workItem from="1714019675889" duration="38379000" />
       <workItem from="1715829537585" duration="6000" />
       <workItem from="1716254784309" duration="3174000" />
-      <workItem from="1717442124900" duration="2394000" />
+      <workItem from="1717442124900" duration="2735000" />
     </task>
     <servers />
   </component>
